@@ -1,377 +1,54 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{lanczos1950}
-Cornelius Lanczos.
-\newblock An iteration method for the solution of the eigenvalue problem of
-  linear differential and integral operators.
-\newblock {\em Journal of Research of the National Bureau of Standards},
-  45(4):255--282, 1950.
-
-\bibitem{saad1992analysis}
-Yousef Saad.
-\newblock Analysis of some {Krylov} subspace approximations to the matrix
-  exponential operator.
-\newblock {\em SIAM Journal on Numerical Analysis}, 29(1):209--228, 1992.
-
-\bibitem{hochbruck1997krylov}
-Marlis Hochbruck and Christian Lubich.
-\newblock On {Krylov} subspace approximations to the matrix exponential
-  operator.
-\newblock {\em SIAM Journal on Numerical Analysis}, 34(5):1911--1925, 1997.
-
-\bibitem{higham2008functions}
-Nicholas~J. Higham.
-\newblock {\em Functions of Matrices: Theory and Computation}.
-\newblock Society for Industrial and Applied Mathematics, Philadelphia, 2008.
-
-\bibitem{chen2024handbook}
-Tyler Chen.
-\newblock The {Lanczos} algorithm for matrix functions: A handbook for
-  scientists, 2024.
-
-\bibitem{hutchinson1990trace}
-M.~F. Hutchinson.
-\newblock A stochastic estimator of the trace of the influence matrix for
-  laplacian smoothing splines.
-\newblock {\em Communications in Statistics---Simulation and Computation},
-  19(2):433--450, 1990.
-
-\bibitem{avron2011trace}
-Haim Avron and Sivan Toledo.
-\newblock Randomized algorithms for estimating the trace of an implicit
-  symmetric positive semi-definite matrix.
-\newblock {\em Journal of the ACM}, 58(2):1--34, 2011.
-
-\bibitem{ubaru2017slq}
-Shashanka Ubaru, Jie Chen, and Yousef Saad.
-\newblock Fast estimation of $\operatorname{tr}(f(a))$ via stochastic {Lanczos}
-  quadrature.
-\newblock {\em SIAM Journal on Matrix Analysis and Applications},
-  38(4):1075--1099, 2017.
-
-\bibitem{saibaba2017randomized}
-Arvind~K. Saibaba, Alen Alexanderian, and Ilse C.~F. Ipsen.
-\newblock Randomized matrix-free trace and log-determinant estimators.
-\newblock {\em Numerische Mathematik}, 137(2):353--395, 2017.
-
-\bibitem{pearlmutter1994hessian}
-Barak~A. Pearlmutter.
-\newblock Fast exact multiplication by the hessian.
-\newblock {\em Neural Computation}, 6(1):147--160, 1994.
-
-\bibitem{almohy2011action}
-Awad~H. Al-Mohy and Nicholas~J. Higham.
-\newblock Computing the action of the matrix exponential, with an application
-  to exponential integrators.
-\newblock {\em SIAM Journal on Scientific Computing}, 33(2):488--511, 2011.
-
-\bibitem{hochbruck2010integrators}
-Marlis Hochbruck and Alexander Ostermann.
-\newblock Exponential integrators.
-\newblock {\em Acta Numerica}, 19:209--286, 2010.
-
-\bibitem{kassam2005etdrk}
-Aly-Khan Kassam and Lloyd~N. Trefethen.
-\newblock Fourth-order time-stepping for stiff {PDEs}.
-\newblock {\em SIAM Journal on Scientific Computing}, 26(4):1214--1233, 2005.
-
-\bibitem{rodriguez2026projected}
-Austin Rodriguez, Justin~S. Smith, Sakib Matin, Nicholas Lubbers, Kipton
-  Barros, and Jos{\'e}~L. Mendoza-Cortes.
-\newblock Projected hessian learning: Fast curvature supervision for accurate
-  machine-learning interatomic potentials, 2026.
-
-\bibitem{kramer2024gradients}
-Nicholas Kr{\"a}mer, Pablo Moreno-Mu{\~n}oz, Hrittik Roy, and S{\o}ren Hauberg.
-\newblock Gradients of functions of large matrices.
-\newblock In {\em Advances in Neural Information Processing Systems},
-  volume~37, 2024.
-
-\bibitem{singh2026fast}
-Navjot Singh, Kipton Barros, and Xiaoye~Sherry Li.
-\newblock Fast and stable gradient approximation for bilinear forms of
-  hermitian matrix functions, 2026.
-\newblock
-  \href{https://doi.org/10.48550/arXiv.2605.12801}{doi:10.48550/arXiv.2605.12801}.
-
-\bibitem{guttel2020limited}
-Stefan G{\"u}ttel, Daniel Kressner, and Kathryn Lund.
-\newblock Limited-memory polynomial methods for large-scale matrix functions.
-\newblock {\em GAMM-Mitteilungen}, 43(3):e202000019, 2020.
-
-\bibitem{casulli2025lowmemory}
-Angelo~A. Casulli and Igor Simunec.
-\newblock A low-memory {Lanczos} method with rational {Krylov} compression for
-  matrix functions.
-\newblock {\em SIAM Journal on Scientific Computing}, 47(3):A1358--A1382, 2025.
-
-\bibitem{frommer2017radau}
-Andreas Frommer, Kathryn Lund, Marcel Schweitzer, and Daniel~B. Szyld.
-\newblock The {Radau--Lanczos} method for matrix functions.
-\newblock {\em SIAM Journal on Matrix Analysis and Applications},
-  38(3):710--732, 2017.
-
-\bibitem{chen2022bounds}
-Tyler Chen, Anne Greenbaum, Cameron Musco, and Christopher Musco.
-\newblock Error bounds for {Lanczos}-based matrix function approximation.
-\newblock {\em SIAM Journal on Matrix Analysis and Applications},
-  43(2):787--811, 2022.
-
-\bibitem{greenbaum2018modeling}
-Daniel Greenbaum and Zachary Dutton.
-\newblock Modeling coherent errors in quantum error correction.
-\newblock {\em Quantum Science and Technology}, 3(1):015007, 2018.
-
-\bibitem{beale2018quantum}
-Stefanie~J. Beale, Joel~J. Wallman, Mauricio Guti{\'e}rrez, Kenneth~R. Brown,
-  and Raymond Laflamme.
-\newblock Quantum error correction decoheres noise.
-\newblock {\em Physical Review Letters}, 121:190501, 2018.
-
-\bibitem{huang2019performance}
-Eric Huang, Andrew~C. Doherty, and Steven Flammia.
-\newblock Performance of quantum error correction with coherent errors.
-\newblock {\em Physical Review A}, 99:022313, 2019.
-
-\bibitem{marton2023coherent}
-{\'A}ron M{\'a}rton and J{\'a}nos~K. Asb{\'o}th.
-\newblock Coherent errors and readout errors in the surface code.
-\newblock {\em Quantum}, 7:1116, 2023.
-
-\bibitem{wagner2021optimal}
-Thomas Wagner, Hermann Kampermann, Dagmar Bru{\ss}, and Martin Kliesch.
-\newblock Optimal noise estimation from syndrome statistics of quantum codes.
-\newblock {\em Physical Review Research}, 3:013292, 2021.
-
-\bibitem{wagner2023learning}
-Thomas Wagner, Hermann Kampermann, Dagmar Bru{\ss}, and Martin Kliesch.
-\newblock Learning logical {Pauli} noise in quantum error correction.
-\newblock {\em Physical Review Letters}, 130:200601, 2023.
-
-\bibitem{carignandugas2024estimating}
-Arnaud Carignan-Dugas, Shashank~Kumar Ranu, and Patrick Dreher.
-\newblock Estimating coherent contributions to the error profile using cycle
-  error reconstruction.
-\newblock {\em Quantum}, 8:1367, 2024.
-
-\bibitem{wiebe2014hamiltonian}
-Nathan Wiebe, Christopher Granade, Christopher Ferrie, and David~G. Cory.
-\newblock Hamiltonian learning and certification using quantum resources.
-\newblock {\em Physical Review Letters}, 112(19):190501, 2014.
-
-\bibitem{granade2012hamiltonian}
-Christopher~E. Granade, Christopher Ferrie, Nathan Wiebe, and David~G. Cory.
-\newblock Robust online hamiltonian learning.
-\newblock {\em New Journal of Physics}, 14(10):103013, 2012.
-
-\bibitem{ferrie2014selfguided}
-Christopher Ferrie.
-\newblock Self-guided quantum tomography.
-\newblock {\em Physical Review Letters}, 113(19):190404, 2014.
-
-\bibitem{nielsen2021gst}
-Erik Nielsen, John~King Gamble, Kenneth Rudinger, Travis Scholten, Kevin Young,
-  and Robin Blume-Kohout.
-\newblock Gate set tomography.
-\newblock {\em Quantum}, 5:557, 2021.
-
-\bibitem{proctor2017rb}
-Timothy Proctor, Kenneth Rudinger, Kevin Young, Mohan Sarovar, and Robin
-  Blume-Kohout.
-\newblock What randomized benchmarking actually measures.
-\newblock {\em Physical Review Letters}, 119(13):130502, 2017.
-
-\bibitem{erhard2019cycle}
-Alexander Erhard, Joel~J. Wallman, Lukas Postler, Michael Meth, Roman Stricker,
-  Esteban~A. Martinez, Philipp Schindler, Thomas Monz, Joseph Emerson, and
-  Rainer Blatt.
-\newblock Characterizing large-scale quantum computers via cycle benchmarking.
-\newblock {\em Nature Communications}, 10(1):5347, 2019.
-
-\bibitem{khaneja2005grape}
-Navin Khaneja, Timo Reiss, Cindie Kehlet, Thomas Schulte-Herbr{\"u}ggen, and
-  Steffen~J. Glaser.
-\newblock Optimal control of coupled spin dynamics: Design of {NMR} pulse
-  sequences by gradient ascent algorithms.
-\newblock {\em Journal of Magnetic Resonance}, 172(2):296--305, 2005.
-
-\bibitem{glaser2015control}
-Steffen~J. Glaser, Ugo Boscain, Tommaso Calarco, Christiane~P. Koch, Walter
-  K{\"o}ckenberger, Ronnie Kosloff, Ilya Kuprov, Burkhard Luy, Sophie Schirmer,
-  Thomas Schulte-Herbr{\"u}ggen, Dominique Sugny, and Frank~K. Wilhelm.
-\newblock Training schr{\"o}dinger's cat: Quantum optimal control.
-\newblock {\em The European Physical Journal D}, 69(12):279, 2015.
-
-\bibitem{doria2011control}
-Patrick Doria, Tommaso Calarco, and Simone Montangero.
-\newblock Optimal control technique for many-body quantum dynamics.
-\newblock {\em Physical Review Letters}, 106(19):190501, 2011.
-
-\bibitem{machnes2018goat}
-Shai Machnes, Elie Ass{\'e}mat, David Tannor, and Frank~K. Wilhelm.
-\newblock Tunable, flexible, and efficient optimization of control pulses for
-  practical qubits.
-\newblock {\em Physical Review Letters}, 120(15):150401, 2018.
-
-\bibitem{davis2011suitesparse}
-Timothy~A. Davis and Yifan Hu.
-\newblock The university of {Florida} sparse matrix collection.
-\newblock {\em ACM Transactions on Mathematical Software}, 38(1):1:1--1:25,
-  2011.
-
-\bibitem{kolodziej2019suitesparse}
-Scott Kolodziej, Mohsen Aznaveh, Matthew Bullock, Jarrett David, Timothy~A.
-  Davis, Matthew Henderson, Yifan Hu, and Read Sandstrom.
-\newblock The {SuiteSparse} matrix collection website interface.
-\newblock {\em Journal of Open Source Software}, 4(35):1244, 2019.
-
-\bibitem{kronik2006parsec}
-Leeor Kronik, Adi Makmal, Murilo~L. Tiago, M.~M.~G. Alemany, Manish Jain,
-  Xiangyang Huang, Yousef Saad, and James~R. Chelikowsky.
-\newblock {PARSEC} -- the pseudopotential algorithm for real-space electronic
-  structure calculations: Recent advances and novel applications to
-  nano-structures.
-\newblock {\em Physica Status Solidi (b)}, 243(5):1063--1079, 2006.
-
-\bibitem{chelikowsky1994fd}
-James~R. Chelikowsky, N.~Troullier, K.~Wu, and Yousef Saad.
-\newblock Higher-order finite-difference pseudopotential method: An application
-  to diatomic molecules.
-\newblock {\em Physical Review B}, 50(16):11355--11364, 1994.
-
-\bibitem{saad2010electronic}
-Yousef Saad, James~R. Chelikowsky, and Suzanne~M. Shontz.
-\newblock Numerical methods for electronic structure calculations of materials.
-\newblock {\em SIAM Review}, 52(1):3--54, 2010.
-
-\bibitem{hohenberg1964dft}
-Pierre Hohenberg and Walter Kohn.
-\newblock Inhomogeneous electron gas.
-\newblock {\em Physical Review}, 136(3B):B864--B871, 1964.
-
-\bibitem{kohn1965dft}
-Walter Kohn and Lu~Jeu Sham.
-\newblock Self-consistent equations including exchange and correlation effects.
-\newblock {\em Physical Review}, 140(4A):A1133--A1138, 1965.
-
-\bibitem{jones1989dft}
-R.~O. Jones and O.~Gunnarsson.
-\newblock The density functional formalism, its applications and prospects.
-\newblock {\em Reviews of Modern Physics}, 61(3):689--746, 1989.
-
-\bibitem{perdew1996pbe}
-John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
-\newblock Generalized gradient approximation made simple.
-\newblock {\em Physical Review Letters}, 77(18):3865--3868, 1996.
-
-\bibitem{becke1993hybrid}
-Axel~D. Becke.
-\newblock Density-functional thermochemistry. {III}. the role of exact
-  exchange.
-\newblock {\em The Journal of Chemical Physics}, 98(7):5648--5652, 1993.
-
-\bibitem{lee1988lyp}
-Chengteh Lee, Weitao Yang, and Robert~G. Parr.
-\newblock Development of the {Colle--Salvetti} correlation-energy formula into
-  a functional of the electron density.
-\newblock {\em Physical Review B}, 37(2):785--789, 1988.
-
-\bibitem{goedecker1999linear}
-Stefan Goedecker.
-\newblock Linear scaling electronic structure methods.
-\newblock {\em Reviews of Modern Physics}, 71(4):1085--1123, 1999.
-
-\bibitem{bowler2012linear}
-David~R. Bowler and Tsuyoshi Miyazaki.
-\newblock $\mathcal{O}(n)$ methods in electronic structure calculations.
-\newblock {\em Reports on Progress in Physics}, 75(3):036503, 2012.
-
-\bibitem{benzi2013decay}
-Michele Benzi, Paola Boito, and Nader Razouk.
-\newblock Decay properties of spectral projectors with applications to
-  electronic structure.
-\newblock {\em SIAM Review}, 55(1):3--64, 2013.
-
-\bibitem{almohy2009frechet}
+\bibitem[Al-Mohy and Higham(2009)]{almohy2009frechet}
 Awad~H. Al-Mohy and Nicholas~J. Higham.
 \newblock Computing the {Fr{\'e}chet} derivative of the matrix exponential,
   with an application to condition number estimation.
-\newblock {\em SIAM Journal on Matrix Analysis and Applications},
-  30(4):1639--1657, 2009.
+\newblock \emph{SIAM Journal on Matrix Analysis and Applications}, 30\penalty0
+  (4):\penalty0 1639--1657, 2009.
+\newblock \doi{10.1137/080716426}.
 
-\bibitem{ipsen2009numerical}
-Ilse C.~F. Ipsen.
-\newblock {\em Numerical Matrix Analysis: Linear Systems and Least Squares}.
-\newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
-  2009.
+\bibitem[Casulli and Simunec(2025)]{casulli2025lowmemory}
+Angelo~A. Casulli and Igor Simunec.
+\newblock A low-memory {Lanczos} method with rational {Krylov} compression for
+  matrix functions.
+\newblock \emph{SIAM Journal on Scientific Computing}, 47\penalty0
+  (3):\penalty0 A1358--A1382, 2025.
+\newblock \doi{10.1137/24M1644699}.
 
-\bibitem{demmel1997linear}
-James~W. Demmel.
-\newblock {\em Applied Numerical Linear Algebra}.
-\newblock Society for Industrial and Applied Mathematics, Philadelphia, 1997.
+\bibitem[Davis and Hu(2011)]{davis2011suitesparse}
+Timothy~A. Davis and Yifan Hu.
+\newblock The university of {Florida} sparse matrix collection.
+\newblock \emph{ACM Transactions on Mathematical Software}, 38\penalty0
+  (1):\penalty0 1:1--1:25, 2011.
+\newblock \doi{10.1145/2049662.2049663}.
 
-\bibitem{knoll2004jfnk}
-Dana~A. Knoll and David~E. Keyes.
-\newblock Jacobian-free {Newton--Krylov} methods: A survey of approaches and
-  applications.
-\newblock {\em Journal of Computational Physics}, 193(2):357--397, 2004.
+\bibitem[Higham(2008)]{higham2008functions}
+Nicholas~J. Higham.
+\newblock \emph{Functions of Matrices: Theory and Computation}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, 2008.
+\newblock \doi{10.1137/1.9780898717778}.
 
-\bibitem{paige1982lsqr}
-Christopher~C. Paige and Michael~A. Saunders.
-\newblock {LSQR}: An algorithm for sparse linear equations and sparse least
-  squares.
-\newblock {\em ACM Transactions on Mathematical Software}, 8(1):43--71, 1982.
+\bibitem[Kolodziej et~al.(2019)Kolodziej, Aznaveh, Bullock, David, Davis,
+  Henderson, Hu, and Sandstrom]{kolodziej2019suitesparse}
+Scott Kolodziej, Mohsen Aznaveh, Matthew Bullock, Jarrett David, Timothy~A.
+  Davis, Matthew Henderson, Yifan Hu, and Read Sandstrom.
+\newblock The {SuiteSparse} matrix collection website interface.
+\newblock \emph{Journal of Open Source Software}, 4\penalty0 (35):\penalty0
+  1244, 2019.
+\newblock \doi{10.21105/joss.01244}.
 
-\bibitem{fong2011lsmr}
-David C.-L. Fong and Michael~A. Saunders.
-\newblock {LSMR}: An iterative algorithm for sparse least-squares problems.
-\newblock {\em SIAM Journal on Scientific Computing}, 33(5):2950--2971, 2011.
-
-\bibitem{nocedal2006optimization}
-Jorge Nocedal and Stephen~J. Wright.
-\newblock {\em Numerical Optimization}.
-\newblock Springer, New York, 2 edition, 2006.
-
-\bibitem{shor1995qec}
-Peter~W. Shor.
-\newblock Scheme for reducing decoherence in quantum computer memory.
-\newblock {\em Physical Review A}, 52(4):R2493--R2496, 1995.
-
-\bibitem{steane1996qec}
-Andrew~M. Steane.
-\newblock Error correcting codes in quantum theory.
-\newblock {\em Physical Review Letters}, 77(5):793--797, 1996.
-
-\bibitem{calderbank1996qec}
-A.~Robert Calderbank and Peter~W. Shor.
-\newblock Good quantum error-correcting codes exist.
-\newblock {\em Physical Review A}, 54(2):1098--1105, 1996.
-
-\bibitem{fowler2012surface}
-Austin~G. Fowler, Matteo Mariantoni, John~M. Martinis, and Andrew~N. Cleland.
-\newblock Surface codes: Towards practical large-scale quantum computation.
-\newblock {\em Physical Review A}, 86(3):032324, 2012.
-
-\bibitem{terhal2015review}
-Barbara~M. Terhal.
-\newblock Quantum error correction for quantum memories.
-\newblock {\em Reviews of Modern Physics}, 87(2):307--346, 2015.
-
-\bibitem{harper2020noise}
-Robin Harper, Steven~T. Flammia, and Joel~J. Wallman.
-\newblock Efficient learning of quantum noise.
-\newblock {\em Nature Physics}, 16(12):1184--1188, 2020.
-
-\bibitem{wallman2015loss}
-Joel~J. Wallman, Marie Barnhill, and Joseph Emerson.
-\newblock Robust characterization of loss rates.
-\newblock {\em Physical Review Letters}, 115(6):060501, 2015.
-
-\bibitem{blumekohout2017gst}
-Robin Blume-Kohout, John~King Gamble, Erik Nielsen, Kenneth Rudinger, Jonathan
-  Mizrahi, Kevin Fortier, and Peter Maunz.
-\newblock Demonstration of qubit operations below a rigorous fault tolerance
-  threshold with gate set tomography.
-\newblock {\em Nature Communications}, 8(1):14485, 2017.
+\bibitem[Saad(1992)]{saad1992analysis}
+Yousef Saad.
+\newblock Analysis of some {Krylov} subspace approximations to the matrix
+  exponential operator.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 29\penalty0 (1):\penalty0
+  209--228, 1992.
+\newblock \doi{10.1137/0729014}.
 
 \end{thebibliography}

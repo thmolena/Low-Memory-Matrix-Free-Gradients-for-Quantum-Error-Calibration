@@ -1,4 +1,4 @@
-# Parameter-Blocked Lanczos Sensitivity Replay
+# Parameter-Blocked Lanczos Sensitivity Replay for Low-Launch Matrix-Function Gradients
 
 This repository contains the manuscript and reproducibility package for parameter-blocked differentiation of a finite Lanczos matrix-function objective.
 

@@ -1,5 +1,5 @@
-\documentclass[10pt,twocolumn]{article}
-\usepackage[letterpaper,margin=0.72in,columnsep=0.24in]{geometry}
+\documentclass[10pt,letterpaper,twoside]{article}
+\usepackage{code/manuscript_assets/researchpreprint}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
@@ -12,7 +12,6 @@
 \usepackage{xurl}
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage[hidelinks]{hyperref}
-\usepackage{lineno}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{corollary}[theorem]{Corollary}
@@ -21,13 +20,12 @@
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\norm}[1]{\left\lVert #1\right\rVert}
 \newcommand{\tr}{\operatorname{tr}}
-\newcommand{\email}[1]{\href{mailto:#1}{#1}}
-\newenvironment{keywords}{\par\smallskip\noindent\textbf{Keywords. }}{\par}
 
 \title{Parameter-Blocked Lanczos Sensitivity Replay for
 Low-Launch Matrix-Function Gradients}
-\author{Molena Huynh\thanks{North Carolina State University.
-Email: \email{molena.huynh@jmp.com}.}}
+\author{Molena Huynh}
+\email{molena.huynh@jmp.com}
+\affiliation{North Carolina State University}
 \date{}
 
 \hypersetup{
@@ -38,7 +36,6 @@ Email: \email{molena.huynh@jmp.com}.}}
 \begin{document}
 \setlength{\emergencystretch}{2em}
 \maketitle
-\linenumbers
 
 \begin{abstract}
 Differentiating a finite Lanczos matrix-function objective by tangent replay
