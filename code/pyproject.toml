@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77,<82", "wheel>=0.45,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rc-krylov-qec"
+version = "2.0.0"
+description = "Parameter-blocked tridiagonal replay for low-launch quantum calibration gradients"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = "MIT"
+license-files = ["LICENSE", "DATA_LICENSE.txt"]
+authors = [{name = "Molena Huynh", email = "molena.huynh@jmp.com"}]
+keywords = ["Krylov methods", "quantum error correction", "calibration", "matrix-free"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+  "matplotlib>=3.7,<4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+reproduce = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+  "matplotlib>=3.7,<4",
+  "pyparsing>=3.1,<4",
+]
+
+[project.scripts]
+rc-krylov-qec-reproduce = "rc_krylov_qec.realstudy:main"
+rc-krylov-block-study = "rc_krylov_qec.block_study:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src"]

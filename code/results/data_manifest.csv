@@ -1,0 +1,5 @@
+matrix,dimension,nonzeros,sha256,source_url
+Si2,769.0,17801.0,84e9c6f4b61a88adc1fc927e3be1fa75cb51d01f4ba26287e9c803578c0e27cd,https://suitesparse-collection-website.herokuapp.com/MM/PARSEC/Si2.tar.gz
+SiH4,5041.0,171903.0,803b52431d5e4967ac230cd5be591557d7a99c175b9ec170555151f8d76776bd,https://suitesparse-collection-website.herokuapp.com/MM/PARSEC/SiH4.tar.gz
+benzene,8219.0,242669.0,a1f78f39eefc4436820d9a9745e2b7c73375dce54e6bf54c6d39da0b029e89f4,https://suitesparse-collection-website.herokuapp.com/MM/PARSEC/benzene.tar.gz
+Si5H12,19896.0,738598.0,895c0d8c7069e4a0401fc68838a124fbec7e4bc77f2dbd581cea8828e47578b9,https://suitesparse-collection-website.herokuapp.com/MM/PARSEC/Si5H12.tar.gz

@@ -1,0 +1,6 @@
+# SuiteSparse Matrix Collection archives fetched by download_data.py.
+# The archives remain in the external cache and are not redistributed here.
+84e9c6f4b61a88adc1fc927e3be1fa75cb51d01f4ba26287e9c803578c0e27cd  PARSEC_Si2.tar.gz
+803b52431d5e4967ac230cd5be591557d7a99c175b9ec170555151f8d76776bd  PARSEC_SiH4.tar.gz
+a1f78f39eefc4436820d9a9745e2b7c73375dce54e6bf54c6d39da0b029e89f4  PARSEC_benzene.tar.gz
+895c0d8c7069e4a0401fc68838a124fbec7e4bc77f2dbd581cea8828e47578b9  PARSEC_Si5H12.tar.gz

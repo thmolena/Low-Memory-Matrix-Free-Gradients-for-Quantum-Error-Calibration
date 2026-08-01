@@ -1,0 +1,23 @@
+The real-matrix study uses the PARSEC/Si2, PARSEC/SiH4, PARSEC/benzene,
+and PARSEC/Si5H12 matrices from the SuiteSparse Matrix Collection:
+
+https://sparse.tamu.edu
+
+The SuiteSparse Matrix Collection states that its matrices are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0). The matrices are
+not redistributed in this repository. The software downloads the original
+Matrix Market archives, verifies pinned SHA-256 digests, and records derived
+benchmark quantities. The matrices are attributed to Y. Zhou, Y. Saad,
+M. Tiago, and J. Chelikowsky, with T. Davis as collection editor.
+
+Collection citations:
+
+Timothy A. Davis and Yifan Hu, "The University of Florida Sparse Matrix
+Collection," ACM Transactions on Mathematical Software 38(1), Article 1
+(2011), DOI: 10.1145/2049662.2049663.
+
+Scott P. Kolodziej et al., "The SuiteSparse Matrix Collection Website
+Interface," Journal of Open Source Software 4(35), 1244 (2019),
+DOI: 10.21105/joss.01244.
+
+License text: https://creativecommons.org/licenses/by/4.0/

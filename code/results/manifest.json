@@ -1,0 +1,62 @@
+{
+  "files": {
+    "code/manuscript_assets/figures/direct_bound.pdf": {
+      "bytes": 17813,
+      "sha256": "087607ac3ead9342234815081cc90036971c0c71f6a53a56a9df0ba75f35902c"
+    },
+    "code/manuscript_assets/figures/direct_bound.png": {
+      "bytes": 68407,
+      "sha256": "5efdac758267092e128648c28cc2526661b81f2710bfdce88c5c8c894c472072"
+    },
+    "code/manuscript_assets/figures/direct_storage.pdf": {
+      "bytes": 16728,
+      "sha256": "dba5f9562a0bf4b0bf962e40b9294c75820fd4afb1b4da50e74af18f9541dcbe"
+    },
+    "code/manuscript_assets/figures/direct_storage.png": {
+      "bytes": 48114,
+      "sha256": "9f32904c528cdf66984a56eea5c602793d7f06b191fe8aad3156e86259593858"
+    },
+    "code/manuscript_assets/figures/direct_timing.pdf": {
+      "bytes": 14033,
+      "sha256": "920a0b61230fb3f4073267e5dface2185c81494f980a4e04f1fa76fc0658e809"
+    },
+    "code/manuscript_assets/figures/direct_timing.png": {
+      "bytes": 37272,
+      "sha256": "6e849f085f2ed79a93336ae9f5ef9e147a9cda297793a175f012df21a6d4d8d2"
+    },
+    "code/manuscript_assets/figures/direct_vs_forward.pdf": {
+      "bytes": 18368,
+      "sha256": "8e3aea262971894fd2477aff15d587f5917cd0080fef63219a17f6ff4bf41b21"
+    },
+    "code/manuscript_assets/figures/direct_vs_forward.png": {
+      "bytes": 66133,
+      "sha256": "ccea9bb974e3da9b453901988db34c5ef879136d46cbb67cb324c2ee864185e9"
+    },
+    "code/results/data_manifest.csv": {
+      "bytes": 700,
+      "sha256": "7d7c5962f6b9c53bff4e59aebe53759af1c7ff3f95c8deec6b5027312ecd8460"
+    },
+    "code/results/direct_bound_sweep.csv": {
+      "bytes": 1160,
+      "sha256": "05028056575a72cde001d1c728afefa6ba1ba76a692b188af4d94972c982fbc7"
+    },
+    "code/results/direct_cross_matrix.csv": {
+      "bytes": 3067,
+      "sha256": "2e1bc533be27cd1516b38970259d7c6e2298f9d2a7c045fb335a38b6d0fd86ac"
+    },
+    "code/results/direct_storage.csv": {
+      "bytes": 959,
+      "sha256": "29f9f716abdc3bd18e5f442a027d2d1b3789090e4680fd6d5a6f442bf2bbedb3"
+    },
+    "code/results/direct_timing.csv": {
+      "bytes": 977,
+      "sha256": "6453cafe947a8817bcb0017036e541c9421ba2c00223914ed29d5b6db903aa0a"
+    },
+    "code/results/locked_results.json": {
+      "bytes": 19914,
+      "sha256": "5d2b709636f3a5a2c9cacaf6a8d1fae9945decdc27051cb2135d29cff7a5c66d"
+    }
+  },
+  "schema_version": 2,
+  "timing_is_host_dependent": true
+}
